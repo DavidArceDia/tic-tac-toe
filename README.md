@@ -8,7 +8,7 @@
 - Reset the board at any time
 
 The gameboard:
-![Reset Gameboard](/images/1.png)
+<img src="/images/1.png" width="200" height="200" />
 
 Result: Player wins:
 ![Result: Player wins](images/2.png)
