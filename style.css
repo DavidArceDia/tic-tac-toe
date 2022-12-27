@@ -1,0 +1,77 @@
+body {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+}
+
+.board {
+  width: 28rem;
+  height: 28rem;
+  background-color: rgb(221, 48, 146);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#innerBoard {
+  width: 26rem;
+  height: 26rem;
+  background-color: rgb(92, 13, 57);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+button.space {
+  height: 8rem;
+  width: 8rem;
+  background-color: rgb(221, 48, 146);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  font-size: 7rem;
+  margin: 0;
+  color: rgb(92, 13, 57);
+  text-align: center;
+}
+
+#playerTurn > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+#resetButton {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+
+  border-radius: 0.25rem;
+  border: none;
+  background-color: rgb(249, 228, 240);
+  width: 5rem;
+  height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  transition: 0.25s;
+}
+
+#resetButton:hover {
+  background-color: rgb(253, 201, 231);
+}
