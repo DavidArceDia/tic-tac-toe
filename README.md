@@ -13,7 +13,7 @@ The gameboard:
 
 Result: Player wins:
 
-<img src="/images/3.png" width="200" height="200" />
+<img src="/images/2.png" width="200" height="200" />
 
 Result: Draw:
 
