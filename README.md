@@ -8,10 +8,13 @@
 - Reset the board at any time
 
 The gameboard:
+
 <img src="/images/1.png" width="200" height="200" />
 
 Result: Player wins:
-![Result: Player wins](images/2.png)
 
-Result: Draw
-![Result: Draw](/images/3.png)
+<img src="/images/3.png" width="200" height="200" />
+
+Result: Draw:
+
+<img src="/images/3.png" width="200" height="200" />
