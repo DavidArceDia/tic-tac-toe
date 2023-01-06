@@ -7,4 +7,4 @@
 - Draw when all spaces are full and there is no winner
 - Reset the board at any time
 
-<a href="https://63b8917e51e83a4b6cc73b6c--wondrous-baklava-980dec.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://wondrous-baklava-980dec.netlify.app/" target="_blank">Live Demo</a>
