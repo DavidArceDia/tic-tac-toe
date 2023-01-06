@@ -70,13 +70,14 @@
         gameboard[0][0] != ""
       ) {
         displayWinner();
-      }
-      if (
+        return;
+      } else if (
         gameboard[0][2] == gameboard[1][1] &&
         gameboard[0][2] == gameboard[2][0] &&
         gameboard[0][2] != ""
       ) {
         displayWinner();
+        return;
       }
       for (let i = 0; i < 3; i++) {
         if (
@@ -85,29 +86,28 @@
           gameboard[i][0] != ""
         ) {
           displayWinner();
-        }
-      }
-      for (let i = 0; i < 3; i++) {
-        if (
+          return;
+        } else if (
           gameboard[0][i] == gameboard[1][i] &&
           gameboard[0][i] == gameboard[2][i] &&
           gameboard[0][i] != ""
         ) {
           displayWinner();
-        }
-      }
+          return;
+        } else {
+          let columnCount = 0;
 
-      let columnCount = 0;
-
-      for (let i = 0; i < 3; i++) {
-        if (
-          gameboard[0][i] != "" &&
-          gameboard[1][i] != "" &&
-          gameboard[2][i] != ""
-        ) {
-          columnCount += 1;
-          if (columnCount == 3) {
-            displayDraw();
+          for (let i = 0; i < 3; i++) {
+            if (
+              gameboard[0][i] != "" &&
+              gameboard[1][i] != "" &&
+              gameboard[2][i] != ""
+            ) {
+              columnCount += 1;
+              if (columnCount == 3) {
+                displayDraw();
+              }
+            }
           }
         }
       }
@@ -182,7 +182,6 @@
       }
     };
 
-    //what should a player be able to do?
     return { chooseSpace };
   };
 
